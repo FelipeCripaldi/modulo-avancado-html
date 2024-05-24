@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tag Picture</title>
+</head>
+
+<body>
+  <h1>Picture Mobile First</h1>
+  <picture>
+    <source media="(min-width: 1024px)" srcset="https://via.placeholder.com/1200">
+    <source media="(min-width: 768px)" srcset="https://via.placeholder.com/800">
+    <source media="(min-width: 465px)" srcset="https://via.placeholder.com/500">
+    <img src="https://via.placeholder.com/300/300" alt="Imagem 300x300">
+  </picture>
+
+  <body>
+    <h1>Picture Desktop First</h1>
+    <picture>
+      <source media="(max-width: 768px)" srcset="https://via.placeholder.com/350">
+      <source media="(max-width: 465px)" srcset="https://via.placeholder.com/350">
+      <source media="(max-width: 375px)" srcset="https://via.placeholder.com/250">
+      <img src="https://via.placeholder.com/300/300" alt="Imagem 300x300">
+    </picture>
+  </body>
+
+</html>
